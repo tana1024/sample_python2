@@ -1,9 +1,4 @@
+abc = {"a": {"appleA": "100", "appleB": "200"}}
 
-value = None
-if (not None):
-    print("空です。")
-
-value = "a"
-
-if (not value):
-    print("空です。。")
+abc["a"].update({})
+print(abc)
